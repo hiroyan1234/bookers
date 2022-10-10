@@ -2,11 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 div {
   display: block;
@@ -34,9 +29,6 @@ th {
   padding-bottom: 5px;
 }
 
-table {
-  border-spacing: 2px;
-}
 
 #error_explanation {
   width: 450px;
@@ -53,6 +45,11 @@ table {
   margin-bottom: 0;
   background-color: #c00;
   color: #fff;
+}
+
+#error_explanation ul li{
+  font-size: 12px;
+  list-style: square;
 }
 
 ul {
